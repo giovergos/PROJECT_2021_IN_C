@@ -11,7 +11,6 @@ struct route* readFromInput(int *N)
     int i, j;
     struct route *m, temp;
     m=(struct route*)malloc(500*sizeof(struct route));
-
     scanf("%d", N);
     for(int i=0; i<*N; i++)
     {
